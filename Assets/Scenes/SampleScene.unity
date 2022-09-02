@@ -346,7 +346,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2014512997}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &843944384
 SphereCollider:
@@ -443,7 +443,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2014512997}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &950702431
 CapsuleCollider:
@@ -782,13 +782,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: Astronaut
+  mTrackableName: Lamborguini
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/VuforiaMars_Images.xml
-  mAspectRatio: 1.7272727
+  mDataSetPath: Vuforia/TallerARDatabase.xml
+  mAspectRatio: 0.5625
   mImageTargetType: 0
-  mWidth: 1.18
-  mHeight: 2.0381818
+  mWidth: 2.77
+  mHeight: 1.558125
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -826,8 +826,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 2014512996}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Astronaut
-  mDatasetName: Vuforia/VuforiaMars_Images.xml
+  mTargetName: Lamborguini
+  mDatasetName: Vuforia/TallerARDatabase.xml
   mCastedBehaviour: {fileID: 2014512996}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
